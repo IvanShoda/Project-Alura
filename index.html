@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encripcat</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><h1>a</h1></header>
+    <main>
+      <div>
+        <textarea
+          class="presentacion"
+          name="ingresatexto"
+          id="encriptando"
+          placeholder="Solo ingrese letras minusculas"
+        ></textarea>
+      </div>
+      <div class="botones">
+        <button onclick="encriptador()" class="encriptarBoton"></button>
+        <button onclick="desencriptador()" class="desencriptarBoton"></button>
+        <button
+          onclick="copiarTexto('desencriptando')"
+          class="copiarTextoEncriptado"
+        ></button>
+        <button
+          onclick="copiarTexto('encriptando')"
+          class="copiarTextoDesencriptado"
+        ></button>
+      </div>
+      <div class="catneoncuadro">
+        <img class="beige" src="assets/beige.jpeg" alt="cat image" />
+        <textarea
+          class="presentacion"
+          name="ingresatexto"
+          id="desencriptando"
+          placeholder="Texto Encriptado"
+        ></textarea>
+      </div>
+      <div><img src="assets/catt22.jpg" /></div>
+    </main>
+    <footer>Desarrollado por Ivan Shoda</footer>
+    <script src="script1.js"></script>
+  </body>
+</html>
